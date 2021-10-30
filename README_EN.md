@@ -2,15 +2,13 @@
 
 Support Language: [JP](README.md) EN
 
-This is a Chrome extension supports to open a link on slack archives page. 
+This is a Chrome extension which supports to open a link on slack archives page automatically. 
 
 ## Features
 
-### Create a task by clicking extension button on browser
+### Open a link automatically
 
 ![Screen](./screen/screen01.png)
-
-### Create a task by context menu on links
 
 ## Roadmap
 
