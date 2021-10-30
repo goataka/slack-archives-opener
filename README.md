@@ -2,7 +2,7 @@
 
 Language: JP [EN](README_EN.md)
 
-このツールはSlackのアーカイブパージのリンクを自動的に開くChromeの拡張機能です。
+このツールはSlackのアーカイブ・ページのリンクを自動的に開くChromeの拡張機能です。
 
 ## 機能
 
