@@ -6,7 +6,7 @@ Language: JP [EN](README_EN.md)
 
 ## 機能
 
-### リンクを自動的に作成できます
+### リンクを自動的に開きます
 
 ![Screen](./screen/screen01.png)
 
