@@ -29,8 +29,5 @@
   "permissions":[
      "scripting",
      "activeTab"
-  ],
-  "homepage_url": "https://example.com",
-  "privacy_policy": "https://example.com/privacy"
-
+  ]
 }
