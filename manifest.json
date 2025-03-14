@@ -1,14 +1,14 @@
 {
   "name":"Slack Archives Opener",
-  "version":"1.0.0",
-  "manifest_version":2,
+  "version":"1.1.0",
+  "manifest_version":3,
   "description":"Open a link on Slack archives.",
   "icons": {
     "16": "images/icon16.png",
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
-  "browser_action":{
+  "action":{
     "default_icon": {
         "19": "images/icon19.png"
     },
@@ -25,5 +25,9 @@
         "run_at": "document_end",
         "all_frames": true
      }
+  ],
+  "permissions":[
+     "scripting",
+     "activeTab"
   ]
 }
