@@ -1,20 +1,27 @@
 name: Develop
+
+# 全てのブランチでpushされたら実行
 on:
-  push: 
-    branches: [ develop ]
-  pull_request:
-    types: [closed]
-    branches: [ develop ]
+  push:
+    branches:
+      - '*'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Archive artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: slack-archives-opener
         path: |
           .
           !*.md
           !.git*
+          !.github*
+          !images*
+          !screen          
