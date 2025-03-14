@@ -4,6 +4,10 @@ Language: JP [EN](README_EN.md)
 
 このツールはSlackのアーカイブ・ページのリンクを自動的に開くChromeの拡張機能です。
 
+## ストア
+
+https://chromewebstore.google.com/detail/slack-archives-opener/oghdiagcdfnclabghpahdfoonacoplel
+
 ## 機能
 
 ### リンクを自動的に開きます
@@ -12,7 +16,7 @@ Language: JP [EN](README_EN.md)
 
 ## 今後の予定
 
-[Issues](https://github.com/GOAMI-Takaaki/slack-archives-opener/issues) で確認する事ができます。
+[Issues](https://github.com/goataka/slack-archives-opener/issues) で確認する事ができます。
 
 ## 始めるには
 
@@ -22,7 +26,7 @@ Language: JP [EN](README_EN.md)
 
 ### 準備
 
-1. [リリース](https://github.com/GOAMI-Takaaki/slack-archives-opener/releases)から最新をダウンロードします
+1. [リリース](https://github.com/goataka/slack-archives-opener/releases)から最新をダウンロードします
 1. ダウンロードしたファイルを任意のフォルダに解凍します
 
 ### インストール
@@ -48,4 +52,4 @@ Language: JP [EN](README_EN.md)
 
 ## 連絡
 
-[Discussion](https://github.com/GOAMI-Takaaki/slack-archives-opener/discussions) を使ってください。
+[Discussion](https://github.com/goataka/slack-archives-opener/discussions) を使ってください。
